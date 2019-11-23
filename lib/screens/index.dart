@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:nigerian_senators/screens/search.dart';
 import 'package:nigerian_senators/widgets/senator_list.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -19,7 +20,7 @@ class _IndexState extends State<Index> {
     _senators = json.decode(
       await DefaultAssetBundle.of(context).loadString("assets/senators.json"),
     );
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 1), () {
       setState(() {
         _isLoading = false;
       });
@@ -47,7 +48,6 @@ class _IndexState extends State<Index> {
   }
 
   void onTapSenator(Map _senatorData) {
-    print(_senatorData);
     showModalBottomSheet(
       context: (context),
       isScrollControlled: true,
@@ -150,6 +150,14 @@ class _IndexState extends State<Index> {
       appBar: AppBar(
         title: Text("Nigerian Senators"),
         centerTitle: true,
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: () {
+              showSearch(context: context, delegate: DataSearch(_senators, onTapSenator));
+            },
+          ),
+        ],
       ),
       body: _isLoading
           ? Center(

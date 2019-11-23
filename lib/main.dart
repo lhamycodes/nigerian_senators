@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import './screens/index.dart';
-import './screens/contact.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +24,6 @@ class _MyAppState extends State<MyApp> {
       ),
       routes: {
         '/' : (ctx) => Index(),
-        '/contact-details' : (ctx) => ContactDetails(),
       },
     );
   }
