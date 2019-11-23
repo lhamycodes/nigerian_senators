@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:nigerian_senators/widgets/senator_list.dart';
 
 class Index extends StatefulWidget {
   static const routeName = '/';
@@ -7,6 +10,98 @@ class Index extends StatefulWidget {
 }
 
 class _IndexState extends State<Index> {
+  bool _isInit = false;
+  bool _isLoading = false;
+  List _senators = [];
+
+  _getSenators() async {
+    _senators = json.decode(
+      await DefaultAssetBundle.of(context).loadString("assets/senators.json"),
+    );
+    Future.delayed(Duration(seconds: 2), () {
+      setState(() {
+        _isLoading = false;
+      });
+    });
+  }
+
+  @override
+  void initState() {
+    if (!_isInit) {
+      setState(() {
+        _isLoading = true;
+      });
+      _getSenators();
+    }
+    _isInit = true;
+    super.initState();
+  }
+
+  void onTapSenator(Map _senatorData) {
+    print(_senatorData);
+    showModalBottomSheet(
+      context: (context),
+      isScrollControlled: true,
+      builder: (BuildContext ct) {
+        return SingleChildScrollView(
+          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                "Full name",
+                style: TextStyle(
+                  color: Color.fromRGBO(0, 135, 81, 1),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              Text(
+                _senatorData['name'],
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              SizedBox(height: 10),
+              Text(
+                "Email Address",
+                style: TextStyle(
+                  color: Color.fromRGBO(0, 135, 81, 1),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              Text(
+                _senatorData['email'],
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              SizedBox(height: 10),
+              Text(
+                "Phone number",
+                style: TextStyle(
+                  color: Color.fromRGBO(0, 135, 81, 1),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              Text(
+                _senatorData['phone'] ?? "Not Provided",
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,6 +109,23 @@ class _IndexState extends State<Index> {
         title: Text("Nigerian Senators"),
         centerTitle: true,
       ),
+      body: _isLoading
+          ? Center(
+              child: CircularProgressIndicator(),
+            )
+          : ListView.separated(
+              separatorBuilder: (ctx, i) => Divider(),
+              itemBuilder: (ctx, i) {
+                Map _sen = _senators[i];
+                List _senatorByState = _sen['data'];
+                return SenatorList(
+                  sen: _sen,
+                  senatorByState: _senatorByState,
+                  onTap: onTapSenator,
+                );
+              },
+              itemCount: _senators.length,
+            ),
     );
   }
 }

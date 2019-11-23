@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Nigerian Senators',
       theme: ThemeData(
         primarySwatch: Colors.green,
+        primaryColor: Color.fromRGBO(0, 135, 81, 1),
         fontFamily: "Poppins",
       ),
       routes: {
