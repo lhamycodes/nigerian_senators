@@ -3,7 +3,7 @@
 An app that shows the list of Nigerian Senators (2019) with contact details.
 
 ## Screenshots
-![picture](screenshots/1.png)
+![picture](screenshots/1.png)![picture](screenshots/2.png)![picture](screenshots/3.png)
 
 ## Usage
 
