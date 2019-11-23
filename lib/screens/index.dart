@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:nigerian_senators/screens/search.dart';
 import 'package:nigerian_senators/widgets/senator_list.dart';
@@ -16,6 +17,8 @@ class _IndexState extends State<Index> {
   bool _isLoading = false;
   List _senators = [];
 
+  final databaseReference = Firestore.instance;
+
   _getSenators() async {
     _senators = json.decode(
       await DefaultAssetBundle.of(context).loadString("assets/senators.json"),
@@ -27,8 +30,14 @@ class _IndexState extends State<Index> {
     });
   }
 
-  Future<void> _launchIntent(String url) async {
+  Future<void> _launchIntent(String url, Map senatorData, String action) async {
     if (await canLaunch(url)) {
+      databaseReference.collection('log_activity').document().setData({
+        'senator_name': senatorData['name'],
+        'senator_email': senatorData['email'],
+        'senator_phone': senatorData['phone'],
+        'action': action,
+      });
       await launch(url);
     } else {
       print('Could not launch $url');
@@ -91,8 +100,8 @@ class _IndexState extends State<Index> {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                onPressed: () =>
-                    _launchIntent("mailto:${_senatorData['email']}"),
+                onPressed: () => _launchIntent(
+                    "mailto:${_senatorData['email']}", _senatorData, 'email'),
               ),
               // SizedBox(height: 10),
               Text(
@@ -125,13 +134,19 @@ class _IndexState extends State<Index> {
                           children: <Widget>[
                             IconButton(
                               icon: Icon(Icons.call),
-                              onPressed: () =>
-                                  _launchIntent("tel:${_senatorData['phone']}"),
+                              onPressed: () => _launchIntent(
+                                "tel:${_senatorData['phone']}",
+                                _senatorData,
+                                'call',
+                              ),
                             ),
                             IconButton(
                               icon: Icon(Icons.sms),
-                              onPressed: () =>
-                                  _launchIntent("sms:${_senatorData['phone']}"),
+                              onPressed: () => _launchIntent(
+                                "sms:${_senatorData['phone']}",
+                                _senatorData,
+                                'sms',
+                              ),
                             ),
                           ],
                         )
@@ -154,7 +169,9 @@ class _IndexState extends State<Index> {
           IconButton(
             icon: Icon(Icons.search),
             onPressed: () {
-              showSearch(context: context, delegate: DataSearch(_senators, onTapSenator));
+              showSearch(
+                  context: context,
+                  delegate: DataSearch(_senators, onTapSenator));
             },
           ),
         ],
