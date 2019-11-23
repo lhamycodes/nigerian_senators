@@ -94,7 +94,7 @@ class _IndexState extends State<Index> {
                 onPressed: () =>
                     _launchIntent("mailto:${_senatorData['email']}"),
               ),
-              SizedBox(height: 10),
+              // SizedBox(height: 10),
               Text(
                 "Phone number",
                 style: TextStyle(
