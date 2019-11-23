@@ -34,6 +34,19 @@ class DataSearch extends SearchDelegate<String> {
     List suggestionList =
         senators.where((sen) => sen['state'] == selectedState).toList();
 
+    if (suggestionList.isEmpty ||
+        suggestionList == null ||
+        suggestionList.length < 1)
+      return Center(
+        child: Text(
+          "No Result found",
+          style: TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.w500,
+            color: Colors.red,
+          ),
+        ),
+      );
     return SenatorList(
       sen: suggestionList[0],
       senatorByState: suggestionList[0]['data'],
@@ -47,10 +60,9 @@ class DataSearch extends SearchDelegate<String> {
         ? senators
         : senators
             .where(
-              (sen) => sen['state']
-                  .toString()
-                  .toLowerCase()
-                  .contains(query.toLowerCase(),),
+              (sen) => sen['state'].toString().toLowerCase().contains(
+                    query.toLowerCase(),
+                  ),
             )
             .toList();
 
