@@ -3,7 +3,11 @@
 An app that shows the list of Nigerian Senators (2019) with contact details.
 
 ## Screenshots
-![picture](screenshots/1.png)![picture](screenshots/2.png)![picture](screenshots/3.png)
+<p>
+    <img src="https://raw.githubusercontent.com/lhamycodes/nigerian_senators/master/screenshots/1.png" width="200px" height="auto" hspace="20"/>
+    <img src="https://raw.githubusercontent.com/lhamycodes/nigerian_senators/master/screenshots/2.png" width="200px" height="auto" hspace="20"/>
+    <img src="https://raw.githubusercontent.com/lhamycodes/nigerian_senators/master/screenshots/3.png" width="200px" height="auto" hspace="20"/>
+</p>
 
 ## Usage
 
