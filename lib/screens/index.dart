@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:nigerian_senators/widgets/senator_list.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Index extends StatefulWidget {
   static const routeName = '/';
@@ -23,6 +24,14 @@ class _IndexState extends State<Index> {
         _isLoading = false;
       });
     });
+  }
+
+  Future<void> _launchIntent(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      print('Could not launch $url');
+    }
   }
 
   @override
@@ -72,12 +81,18 @@ class _IndexState extends State<Index> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-              Text(
-                _senatorData['email'],
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
+              FlatButton.icon(
+                padding: EdgeInsets.all(0),
+                icon: Icon(Icons.email),
+                label: Text(
+                  _senatorData['email'],
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
+                onPressed: () =>
+                    _launchIntent("mailto:${_senatorData['email']}"),
               ),
               SizedBox(height: 10),
               Text(
@@ -88,13 +103,40 @@ class _IndexState extends State<Index> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-              Text(
-                _senatorData['phone'] ?? "Not Provided",
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
+              _senatorData['phone'] == null
+                  ? Text(
+                      "Not Provided",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    )
+                  : Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        Text(
+                          _senatorData['phone'],
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                        Row(
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.call),
+                              onPressed: () =>
+                                  _launchIntent("tel:${_senatorData['phone']}"),
+                            ),
+                            IconButton(
+                              icon: Icon(Icons.sms),
+                              onPressed: () =>
+                                  _launchIntent("sms:${_senatorData['phone']}"),
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
             ],
           ),
         );
