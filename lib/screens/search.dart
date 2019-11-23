@@ -45,7 +45,14 @@ class DataSearch extends SearchDelegate<String> {
   Widget buildSuggestions(BuildContext context) {
     final suggestionList = query.isEmpty
         ? senators
-        : senators.where((sen) => sen['state'].contains(query)).toList();
+        : senators
+            .where(
+              (sen) => sen['state']
+                  .toString()
+                  .toLowerCase()
+                  .contains(query.toLowerCase(),),
+            )
+            .toList();
 
     return ListView.builder(
       itemCount: suggestionList.length,
