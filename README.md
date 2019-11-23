@@ -1,16 +1,18 @@
-# nigerian_senators
+# Nigerian Senators
 
-An app that shows the list of Nigerian Senators (2019) with contact details
+An app that shows the list of Nigerian Senators (2019) with contact details.
 
-## Getting Started
+## Screenshots
+![picture](screenshots/1.png)
 
-This project is a starting point for a Flutter application.
+## Usage
 
-A few resources to get you started if this is your first Flutter project:
+Download from [google drive](https://drive.google.com/file/d/1lcSZTI_E1LaVksXNpngJrZhxn3RPdnon/view) to use the app.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
