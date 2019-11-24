@@ -36,6 +36,8 @@
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
+**/android/key.jks
+**/android/key.properties
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 
