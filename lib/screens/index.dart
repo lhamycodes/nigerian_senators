@@ -74,6 +74,7 @@ class _IndexState extends State<Index> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
+              SizedBox(height: 10),
               Text(
                 _senatorData['name'],
                 style: TextStyle(
