@@ -2,43 +2,70 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:nigerian_senators/screens/search.dart';
-import 'package:nigerian_senators/widgets/senator_list.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../models/senator.dart';
+import '../models/state.dart';
+import '../widgets/senator_list.dart';
+import 'search.dart';
 
 class Index extends StatefulWidget {
   static const routeName = '/';
+
+  const Index({Key? key}) : super(key: key);
+
   @override
-  _IndexState createState() => _IndexState();
+  State<Index> createState() => _IndexState();
 }
 
 class _IndexState extends State<Index> {
   bool _isInit = false;
   bool _isLoading = false;
-  List _senators = [];
+  List<NigState> _states = [];
 
-  final databaseReference = Firestore.instance;
+  String? _selectedSenate; // default year of the senate
+  String get selectedSenate => _selectedSenate ?? senateData[0].keys.first;
+  set selectedSenate(String value) {
+    setState(() {
+      _selectedSenate = value;
+      _isLoading = true;
+    });
+    _loadStates();
+  }
 
-  _getSenators() async {
-    _senators = json.decode(
-      await DefaultAssetBundle.of(context).loadString("assets/senators.json"),
-    );
-    Future.delayed(Duration(seconds: 1), () {
+  List<Map<String, dynamic>> senateData = [
+    {"10th": "10.json"},
+    {"9th": "09.json"}
+  ];
+
+  final databaseReference = FirebaseFirestore.instance;
+
+  _loadStates() async {
+    String path = senateData
+        .where((data) => data.containsKey(selectedSenate))
+        .first[selectedSenate];
+    _states = json
+        .decode(await DefaultAssetBundle.of(context)
+            .loadString("assets/data/$path"))
+        .map<NigState>((item) => NigState.fromJson(item))
+        .toList();
+    Future.delayed(const Duration(seconds: 1), () {
       setState(() {
         _isLoading = false;
       });
     });
   }
 
-  Future<void> _launchIntent(String url, Map senatorData, String action) async {
-    if (await canLaunch(url)) {
-      databaseReference.collection('log_activity').document().setData({
-        'senator_name': senatorData['name'],
-        'senator_email': senatorData['email'],
-        'senator_phone': senatorData['phone'],
+  Future<void> _launchIntent(String url, Senator senator, String action) async {
+    Uri? uri = Uri.tryParse(url);
+    if (uri != null) {
+      await databaseReference.collection('log_activity').add({
+        'senator_name': senator.name ?? "Not Provided",
+        'senator_email': senator.email ?? "Not Provided",
+        'senator_phone': senator.phone ?? "Not Provided",
         'action': action,
       });
-      await launch(url);
+      await launchUrl(uri, mode: LaunchMode.platformDefault);
     } else {
       print('Could not launch $url');
     }
@@ -50,110 +77,126 @@ class _IndexState extends State<Index> {
       setState(() {
         _isLoading = true;
       });
-      _getSenators();
+      _loadStates();
     }
     _isInit = true;
     super.initState();
   }
 
-  void onTapSenator(Map _senatorData) {
+  void onTapSenator(Senator senator) {
     showModalBottomSheet(
       context: (context),
       isScrollControlled: true,
       builder: (BuildContext ct) {
         return SingleChildScrollView(
-          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(
-                "Full name",
-                style: TextStyle(
-                  color: Color.fromRGBO(0, 135, 81, 1),
-                  fontSize: 18,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              SizedBox(height: 10),
-              Text(
-                _senatorData['name'],
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-              SizedBox(height: 10),
-              Text(
-                "Email Address",
-                style: TextStyle(
-                  color: Color.fromRGBO(0, 135, 81, 1),
-                  fontSize: 18,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              FlatButton.icon(
-                padding: EdgeInsets.all(0),
-                icon: Icon(Icons.email),
-                label: Text(
-                  _senatorData['email'],
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 30),
+          child: SizedBox(
+            width: double.infinity,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                const Text(
+                  "Full name",
                   style: TextStyle(
+                    color: Color.fromRGBO(0, 135, 81, 1),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  senator.name ?? "Not Provided",
+                  style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                onPressed: () => _launchIntent(
-                    "mailto:${_senatorData['email']}", _senatorData, 'email'),
-              ),
-              // SizedBox(height: 10),
-              Text(
-                "Phone number",
-                style: TextStyle(
-                  color: Color.fromRGBO(0, 135, 81, 1),
-                  fontSize: 18,
-                  fontWeight: FontWeight.w700,
+                const SizedBox(height: 10),
+                const Text(
+                  "Email Address",
+                  style: TextStyle(
+                    color: Color.fromRGBO(0, 135, 81, 1),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
-              ),
-              _senatorData['phone'] == null
-                  ? Text(
-                      "Not Provided",
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    )
-                  : Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Text(
-                          _senatorData['phone'],
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Row(
-                          children: <Widget>[
-                            IconButton(
-                              icon: Icon(Icons.call),
-                              onPressed: () => _launchIntent(
-                                "tel:${_senatorData['phone']}",
-                                _senatorData,
-                                'call',
-                              ),
-                            ),
-                            IconButton(
-                              icon: Icon(Icons.sms),
-                              onPressed: () => _launchIntent(
-                                "sms:${_senatorData['phone']}",
-                                _senatorData,
-                                'sms',
-                              ),
-                            ),
-                          ],
-                        )
-                      ],
+                TextButton.icon(
+                  icon: const Icon(Icons.email),
+                  label: Text(
+                    senator.email ?? "Not Provided",
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
                     ),
-            ],
+                  ),
+                  onPressed: () {
+                    if (senator.email == null) {
+                      return;
+                    }
+
+                    _launchIntent(
+                      "mailto:${senator.email}",
+                      senator,
+                      'email',
+                    );
+                  },
+                  style: TextButton.styleFrom(
+                    padding: const EdgeInsets.all(0),
+                  ),
+                ),
+                // SizedBox(height: 10),
+                const Text(
+                  "Phone number",
+                  style: TextStyle(
+                    color: Color.fromRGBO(0, 135, 81, 1),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                if (senator.phone == null) ...[
+                  const Text(
+                    "Not Provided",
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  )
+                ] else ...[
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Text(
+                        senator.phone!,
+                        style: const TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      Row(
+                        children: <Widget>[
+                          IconButton(
+                            icon: const Icon(Icons.call),
+                            onPressed: () => _launchIntent(
+                              "tel:${senator.phone}",
+                              senator,
+                              'call',
+                            ),
+                          ),
+                          IconButton(
+                            icon: const Icon(Icons.sms),
+                            onPressed: () => _launchIntent(
+                              "sms:${senator.phone}",
+                              senator,
+                              'sms',
+                            ),
+                          ),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ],
+            ),
           ),
         );
       },
@@ -164,35 +207,59 @@ class _IndexState extends State<Index> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Nigerian Senators"),
-        centerTitle: true,
+        title: const Text("Nigerian Senators", style: TextStyle(fontSize: 18)),
+        centerTitle: false,
         actions: <Widget>[
+          PopupMenuButton<String>(
+            tooltip: 'Select Senate',
+            onSelected: (year) {
+              if (year != selectedSenate) {
+                selectedSenate = year;
+              }
+            },
+            itemBuilder: (context) => senateData.map((data) {
+              final year = data.keys.first;
+              return PopupMenuItem<String>(
+                value: year,
+                child: Text('$year Senate'),
+              );
+            }).toList(),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text('$selectedSenate Senate'),
+                  const Icon(Icons.arrow_drop_down),
+                ],
+              ),
+            ),
+          ),
           IconButton(
-            icon: Icon(Icons.search),
+            icon: const Icon(Icons.search),
             onPressed: () {
               showSearch(
-                  context: context,
-                  delegate: DataSearch(_senators, onTapSenator));
+                context: context,
+                delegate: DataSearch(_states, onTapSenator),
+              );
             },
           ),
         ],
       ),
       body: _isLoading
-          ? Center(
-              child: CircularProgressIndicator(),
-            )
+          ? const Center(child: CircularProgressIndicator())
           : ListView.separated(
-              separatorBuilder: (ctx, i) => Divider(),
+              separatorBuilder: (ctx, i) => const Divider(),
               itemBuilder: (ctx, i) {
-                Map _sen = _senators[i];
-                List _senatorByState = _sen['data'];
+                NigState stateData = _states[i];
+                List<Senator> senatorByState = stateData.data ?? [];
                 return SenatorList(
-                  sen: _sen,
-                  senatorByState: _senatorByState,
+                  sen: stateData,
+                  senatorByState: senatorByState,
                   onTap: onTapSenator,
                 );
               },
-              itemCount: _senators.length,
+              itemCount: _states.length,
             ),
     );
   }

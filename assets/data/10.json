@@ -1,0 +1,1502 @@
+[
+  {
+    "state": "Abia",
+    "data": [
+      {
+        "name": "Augustine Akobundu",
+        "phone": "08033169941",
+        "email": "aoakobundu@senatenass.gov.ng",
+        "district": "Abia Central",
+        "party": "ADC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/523"
+        ]
+      },
+      {
+        "name": "Orji Uzor Kalu",
+        "phone": "08034000001",
+        "email": "okalu@orjikalu.com",
+        "district": "Abia North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/97"
+        ]
+      },
+      {
+        "name": "Enyinnaya Abaribe",
+        "phone": "08033129400",
+        "email": "enyiabaribey@yahoo.com",
+        "district": "Abia South",
+        "party": "LP",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/318"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Adamawa",
+    "data": [
+      {
+        "name": "Aminu Iya Abbas",
+        "phone": null,
+        "email": "iyaabbas@gmail.com",
+        "district": "Adamawa Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/544"
+        ]
+      },
+      {
+        "name": "Amos Yohanna",
+        "phone": null,
+        "email": null,
+        "district": "Adamawa North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Binos Dauda Yaroe",
+        "phone": "08034050460",
+        "email": "bdyaroe@gmail.com",
+        "district": "Adamawa South",
+        "party": "ADC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/87"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Akwa Ibom",
+    "data": [
+      {
+        "name": "Bassey Aniekan Etim",
+        "phone": null,
+        "email": "anigembassey@gmail.com",
+        "district": "Akwa Ibom North-East",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/591"
+        ]
+      },
+      {
+        "name": "Godswill Obot Akpabio",
+        "phone": null,
+        "email": null,
+        "district": "Akwa Ibom North-West",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/513"
+        ]
+      },
+      {
+        "name": "Akpan Ekong Sampson",
+        "phone": null,
+        "email": null,
+        "district": "Akwa Ibom South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Anambra",
+    "data": [
+      {
+        "name": "Victor Chukwunonyelu Umeh",
+        "phone": null,
+        "email": "victorimeh1962@yahoo.com",
+        "district": "Anambra Central",
+        "party": "NDC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/603"
+        ]
+      },
+      {
+        "name": "Tony Nwoye",
+        "phone": null,
+        "email": null,
+        "district": "Anambra North",
+        "party": "ADC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Emmanuel Nwachukwu",
+        "phone": "08027787001",
+        "email": "nuelwatch@yahoo.com",
+        "district": "Anambra South",
+        "party": "APGA",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/696"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Bauchi",
+    "data": [
+      {
+        "name": "Ahmed Abdul Ningi",
+        "phone": null,
+        "email": "abdulahmed.ningi@outlook.com",
+        "district": "Bauchi Central",
+        "party": "PDP",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/567"
+        ]
+      },
+      {
+        "name": "Samaila Dahuwa Kaila",
+        "phone": null,
+        "email": "samailadk@gmail.com",
+        "district": "Bauchi North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/651"
+        ]
+      },
+      {
+        "name": "Umar Shehu Buba",
+        "phone": null,
+        "email": "shehububa2015@yahoo.com",
+        "district": "Bauchi South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/652"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Bayelsa",
+    "data": [
+      {
+        "name": "Benson Friday Konbowei",
+        "phone": null,
+        "email": null,
+        "district": "Bayelsa Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Benson Sunday Agadaga",
+        "phone": null,
+        "email": "bensonagadaga@gmail.com",
+        "district": "Bayelsa East",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/577"
+        ]
+      },
+      {
+        "name": "Henry Seriake Dickson",
+        "phone": "08056085520",
+        "email": "dickson.seriake01@gmail.com",
+        "district": "Bayelsa West",
+        "party": "NDC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/493"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Benue",
+    "data": [
+      {
+        "name": "Emmanuel Udende",
+        "phone": null,
+        "email": null,
+        "district": "Benue North-East",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Titus Tartenger Zam",
+        "phone": null,
+        "email": null,
+        "district": "Benue North-West",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Patrick Abba Moro",
+        "phone": "08068870606",
+        "email": "abahmoro@yahoo.com",
+        "district": "Benue South",
+        "party": "PDP",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/356"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Borno",
+    "data": [
+      {
+        "name": "Kaka Shehu Lawan",
+        "phone": null,
+        "email": "kakashehulawan@gmail.com",
+        "district": "Borno Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/587"
+        ]
+      },
+      {
+        "name": "Mohammed Tahir Monguno",
+        "phone": null,
+        "email": "mtmonguno@gmail.com",
+        "district": "Borno North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/528"
+        ]
+      },
+      {
+        "name": "Mohammed Ali Ndume",
+        "phone": "08109480004",
+        "email": "mohammed.ndume@nass.gov.ng",
+        "district": "Borno South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/412"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Cross River",
+    "data": [
+      {
+        "name": "Eteng Jonah Williams",
+        "phone": null,
+        "email": "eteng_j@yahoo.com",
+        "district": "Cross River Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/557"
+        ]
+      },
+      {
+        "name": "Agom Jarigbe",
+        "phone": null,
+        "email": null,
+        "district": "Cross River North",
+        "party": "PDP",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/451"
+        ]
+      },
+      {
+        "name": "Asuquo Ekpenyong",
+        "phone": null,
+        "email": null,
+        "district": "Cross River South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Delta",
+    "data": [
+      {
+        "name": "Dafinone Ede Omueya",
+        "phone": null,
+        "email": null,
+        "district": "Delta Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Chinedu Munir Nwoko",
+        "phone": "08037227010",
+        "email": "princenednwoko@yahoo.com",
+        "district": "Delta North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/600"
+        ]
+      },
+      {
+        "name": "Joel-Onowakpo Thomas",
+        "phone": null,
+        "email": null,
+        "district": "Delta South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Ebonyi",
+    "data": [
+      {
+        "name": "Eze Kenneth Emeka",
+        "phone": null,
+        "email": null,
+        "district": "Ebonyi Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Nwebonyi Onyeka Peter",
+        "phone": null,
+        "email": null,
+        "district": "Ebonyi North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Anthony Okorie Ani",
+        "phone": null,
+        "email": null,
+        "district": "Ebonyi South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Edo",
+    "data": [
+      {
+        "name": "Joseph Ikpea",
+        "phone": null,
+        "email": null,
+        "district": "Edo Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Adams Aliyu Oshiomhole",
+        "phone": null,
+        "email": null,
+        "district": "Edo North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Neda Bernards Imasuen",
+        "phone": null,
+        "email": null,
+        "district": "Edo South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Ekiti",
+    "data": [
+      {
+        "name": "Michael Opeyemi Bamidele",
+        "phone": "23480911112",
+        "email": "amicusng@gmail.com",
+        "district": "Ekiti Central",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/158"
+        ]
+      },
+      {
+        "name": "Cyril Oluwole Fasuyi",
+        "phone": null,
+        "email": null,
+        "district": "Ekiti North",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Adeyemi Raphael Adaramodu",
+        "phone": null,
+        "email": null,
+        "district": "Ekiti South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Enugu",
+    "data": [
+      {
+        "name": "Kelvin Chukwu",
+        "phone": null,
+        "email": "kelvinchukwu22ng@gmail.com",
+        "district": "Enugu East",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/members-of-the-senate/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/518"
+        ]
+      },
+      {
+        "name": "Ikeje Asogwa",
+        "phone": null,
+        "email": null,
+        "district": "Enugu North",
+        "party": "APC",
+        "sources": [
+          "https://www.channelstv.com/2026/06/24/akpabio-swears-in-four-new-senators/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Osita Ngwu",
+        "phone": null,
+        "email": null,
+        "district": "Enugu West",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/senate-plenary-highlights-wednesday-april-22-2026/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Federal Capital Territory",
+    "data": [
+      {
+        "name": "Ireti Kingibe",
+        "phone": null,
+        "email": "ikingibe@gmail.com",
+        "district": "Federal Capital Territory",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/636"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Gombe",
+    "data": [
+      {
+        "name": "Mohammed Danjuma Goje",
+        "phone": "07068686699",
+        "email": "mdgoje1@gmail.com",
+        "district": "Gombe Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/408"
+        ]
+      },
+      {
+        "name": "Ibrahim Hassan Dankwambo",
+        "phone": null,
+        "email": "dankwanbo@yahoo.com",
+        "district": "Gombe North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/679"
+        ]
+      },
+      {
+        "name": "Anthony Siyako Yaro",
+        "phone": null,
+        "email": "anthonyyaro1@gmail.com",
+        "district": "Gombe South",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/senate-plenary-highlights-wednesday-april-22-2026/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/605"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Imo",
+    "data": [
+      {
+        "name": "Ezenwa Francis Onyewuchi",
+        "phone": "08032012132",
+        "email": "ezeonyewuchi@gmail.com",
+        "district": "Imo East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/94"
+        ]
+      },
+      {
+        "name": "Patrick Ndubueze",
+        "phone": null,
+        "email": null,
+        "district": "Imo North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Osita Izunaso",
+        "phone": null,
+        "email": null,
+        "district": "Imo West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Jigawa",
+    "data": [
+      {
+        "name": "Ahmad Abdulhamid Malam Madori",
+        "phone": null,
+        "email": "aannadori@gmail.com",
+        "district": "Jigawa North-East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/639"
+        ]
+      },
+      {
+        "name": "Babangida Hussaini",
+        "phone": null,
+        "email": "babangidahussaini22@gmail.com",
+        "district": "Jigawa North-West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/533"
+        ]
+      },
+      {
+        "name": "Khabeeb Mustapha",
+        "phone": null,
+        "email": null,
+        "district": "Jigawa South-West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kaduna",
+    "data": [
+      {
+        "name": "Lawal Adamu Usman",
+        "phone": null,
+        "email": "mrla300@gmail.com",
+        "district": "Kaduna Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/663"
+        ]
+      },
+      {
+        "name": "Khalid Mustapha",
+        "phone": null,
+        "email": null,
+        "district": "Kaduna North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Sunday Marshall Katung",
+        "phone": null,
+        "email": "sunnyside1914@gmail.com",
+        "district": "Kaduna South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/576"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kano",
+    "data": [
+      {
+        "name": "Rufai Sani Hanga",
+        "phone": null,
+        "email": null,
+        "district": "Kano Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Barau Jibrin",
+        "phone": null,
+        "email": "ibrahim.jibrin@nass.gov.ng",
+        "district": "Kano North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/433"
+        ]
+      },
+      {
+        "name": "Kawu Sumaila",
+        "phone": null,
+        "email": null,
+        "district": "Kano South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Katsina",
+    "data": [
+      {
+        "name": "Abdulaziz Musa Yar'Adua",
+        "phone": null,
+        "email": null,
+        "district": "Katsina Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Nasiru Sani Zangon Daura",
+        "phone": null,
+        "email": "nazdaura@yahoo.com",
+        "district": "Katsina North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/566"
+        ]
+      },
+      {
+        "name": "Dandutse Muntari Mohammed",
+        "phone": null,
+        "email": null,
+        "district": "Katsina South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kebbi",
+    "data": [
+      {
+        "name": "Adamu Aliero",
+        "phone": "07066847000",
+        "email": "senatoraliero@yahoo.com",
+        "district": "Kebbi Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/411"
+        ]
+      },
+      {
+        "name": "Yahaya Abubakar Abdullahi",
+        "phone": null,
+        "email": "yahaya.abdullahi@nass.gov.ng",
+        "district": "Kebbi North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/452"
+        ]
+      },
+      {
+        "name": "Garba Musa Maidoki",
+        "phone": null,
+        "email": null,
+        "district": "Kebbi South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kogi",
+    "data": [
+      {
+        "name": "Natasha Akpoti-Uduaghan",
+        "phone": "08033112104",
+        "email": "nakpoti@hotmail.com",
+        "district": "Kogi Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/624"
+        ]
+      },
+      {
+        "name": "Jibrin Isah",
+        "phone": "08185651909",
+        "email": "isahj@ymail.com",
+        "district": "Kogi East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/101"
+        ]
+      },
+      {
+        "name": "Sunday Karimi",
+        "phone": null,
+        "email": "karimisunday@yahoo.com",
+        "district": "Kogi West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/561"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kwara",
+    "data": [
+      {
+        "name": "Saliu Mustapha",
+        "phone": null,
+        "email": null,
+        "district": "Kwara Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Sadiq Suleiman Umar",
+        "phone": null,
+        "email": "sadiq.umar@nass.gov.ng",
+        "district": "Kwara North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/454"
+        ]
+      },
+      {
+        "name": "Lola Ashiru",
+        "phone": "07055221111",
+        "email": "ylashiru@gmail.com",
+        "district": "Kwara South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/202"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Lagos",
+    "data": [
+      {
+        "name": "Wasiu Eshilokun Sanni",
+        "phone": null,
+        "email": "lagosmayor@yahoo.com",
+        "district": "Lagos Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/559"
+        ]
+      },
+      {
+        "name": "Tokunbo Abiru",
+        "phone": null,
+        "email": null,
+        "district": "Lagos East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/492"
+        ]
+      },
+      {
+        "name": "Oluranti Adebule",
+        "phone": null,
+        "email": null,
+        "district": "Lagos West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Nasarawa",
+    "data": [
+      {
+        "name": "Danladi Halilu Envulu-Anza",
+        "phone": null,
+        "email": null,
+        "district": "Nasarawa North",
+        "party": "APC",
+        "sources": [
+          "https://www.channelstv.com/2026/06/24/akpabio-swears-in-four-new-senators/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Mohammed Ogoshi Onawo",
+        "phone": null,
+        "email": "onawom@yahoo.com",
+        "district": "Nasarawa South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/579"
+        ]
+      },
+      {
+        "name": "Ahmed Aliyu Wadada",
+        "phone": "08033254856",
+        "email": "wadadaahmed@gmail.com",
+        "district": "Nasarawa West",
+        "party": "APC",
+        "sources": [
+          "https://naltf.gov.ng/senate-plenary-highlights-wednesday-april-22-2026/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/695"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Niger",
+    "data": [
+      {
+        "name": "Mohammed Sani Musa",
+        "phone": "08033114615",
+        "email": "sani-313@hotmail.com",
+        "district": "Niger East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/185"
+        ]
+      },
+      {
+        "name": "Abubakar Sani Bello",
+        "phone": null,
+        "email": "abusani1@gmail.com",
+        "district": "Niger North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/590"
+        ]
+      },
+      {
+        "name": "Peter Ndalikali Jiya",
+        "phone": null,
+        "email": "jiyapn@gmail.com",
+        "district": "Niger South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/637"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Ogun",
+    "data": [
+      {
+        "name": "Shuaibu Afolabi Salisu",
+        "phone": null,
+        "email": "sasworld@yahoo.com",
+        "district": "Ogun Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/670"
+        ]
+      },
+      {
+        "name": "Gbenga Daniel",
+        "phone": null,
+        "email": "justus.daniel@krestalaurel.com",
+        "district": "Ogun East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/560"
+        ]
+      },
+      {
+        "name": "Solomon Olamilekan Adeola",
+        "phone": null,
+        "email": "adeolaolamilekan2005@gmail.com",
+        "district": "Ogun West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/667"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Ondo",
+    "data": [
+      {
+        "name": "Adeniyi Adegbonmire",
+        "phone": null,
+        "email": "niyiadegbonmire@hotmail.com",
+        "district": "Ondo Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/672"
+        ]
+      },
+      {
+        "name": "Jide Ipinsagba",
+        "phone": null,
+        "email": "neatex@yahoo.com",
+        "district": "Ondo North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/623"
+        ]
+      },
+      {
+        "name": "Francis Adedayo Faduyile",
+        "phone": null,
+        "email": null,
+        "district": "Ondo South",
+        "party": "APC",
+        "sources": [
+          "https://www.channelstv.com/2026/06/24/akpabio-swears-in-four-new-senators/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Osun",
+    "data": [
+      {
+        "name": "Olubiyi Fadeyi",
+        "phone": null,
+        "email": "faneconsulting@gmail.com",
+        "district": "Osun Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/673"
+        ]
+      },
+      {
+        "name": "Francis Adenigba Fadahunsi",
+        "phone": "08052242211",
+        "email": "adefadahunsi19@gmail.com",
+        "district": "Osun East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/393"
+        ]
+      },
+      {
+        "name": "Lere Oyewumi",
+        "phone": null,
+        "email": "ireoyewumi@gmail.com",
+        "district": "Osun West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/668"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Oyo",
+    "data": [
+      {
+        "name": "Yunus Akintunde",
+        "phone": null,
+        "email": null,
+        "district": "Oyo Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Abdulfatai Buhari",
+        "phone": "08037053375",
+        "email": "rabab1004@yahoo.com",
+        "district": "Oyo North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/337"
+        ]
+      },
+      {
+        "name": "Sharafadeen Alli",
+        "phone": null,
+        "email": null,
+        "district": "Oyo South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Plateau",
+    "data": [
+      {
+        "name": "Diket Plang",
+        "phone": null,
+        "email": null,
+        "district": "Plateau Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Pam Dachungyang",
+        "phone": "08031184804",
+        "email": "pamdmdachungyang@yahoo.com",
+        "district": "Plateau North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/519"
+        ]
+      },
+      {
+        "name": "Simon Bako Lalong",
+        "phone": null,
+        "email": null,
+        "district": "Plateau South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Rivers",
+    "data": [
+      {
+        "name": "Onyesoh Alwell",
+        "phone": "09022737266",
+        "email": "allwell.heacho.onyesoh@gmail.com",
+        "district": "Rivers East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/690"
+        ]
+      },
+      {
+        "name": "Olaka Nwogu",
+        "phone": null,
+        "email": null,
+        "district": "Rivers South-East",
+        "party": "PDP",
+        "sources": [
+          "https://www.channelstv.com/2026/06/24/akpabio-swears-in-four-new-senators/",
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Ipalibo Gogo Banigo",
+        "phone": null,
+        "email": null,
+        "district": "Rivers West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Sokoto",
+    "data": [
+      {
+        "name": "Ibrahim Lamido",
+        "phone": null,
+        "email": null,
+        "district": "Sokoto East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      },
+      {
+        "name": "Aliyu Wamakko",
+        "phone": "07033181818",
+        "email": "amwamakko@yahoo.com",
+        "district": "Sokoto North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/404"
+        ]
+      },
+      {
+        "name": "Aminu Tambuwal",
+        "phone": null,
+        "email": null,
+        "district": "Sokoto South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Taraba",
+    "data": [
+      {
+        "name": "Haruna Manu",
+        "phone": "08066786179",
+        "email": "hmanu97@gmail.com",
+        "district": "Taraba Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/694"
+        ]
+      },
+      {
+        "name": "Shuaibu Isa Lau",
+        "phone": null,
+        "email": "shuaibu.lau@nass.gov.ng",
+        "district": "Taraba North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/456"
+        ]
+      },
+      {
+        "name": "David Jimkuta",
+        "phone": null,
+        "email": "davidjimkuta@gmail.com",
+        "district": "Taraba South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/632"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Yobe",
+    "data": [
+      {
+        "name": "Musa Mustapha",
+        "phone": "08027507032",
+        "email": "musamustapha95@gmail.com",
+        "district": "Yobe East",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/437"
+        ]
+      },
+      {
+        "name": "Ahmad Lawan",
+        "phone": "07055090323",
+        "email": null,
+        "district": "Yobe North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/424"
+        ]
+      },
+      {
+        "name": "Ibrahim Mohammed Bomai",
+        "phone": null,
+        "email": "ibrahim.bomami@nass.gov.ng",
+        "district": "Yobe South",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/434"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Zamfara",
+    "data": [
+      {
+        "name": "Ikra Aliyu Bilbis",
+        "phone": null,
+        "email": "ikrabilbis999@gmail.com",
+        "district": "Zamfara Central",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/662"
+        ]
+      },
+      {
+        "name": "Sahabi Alhaji Yau",
+        "phone": null,
+        "email": null,
+        "district": "Zamfara North",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/505"
+        ]
+      },
+      {
+        "name": "Abdulaziz Abubakar Yari",
+        "phone": "08033412454",
+        "email": "yariabdulazeez@gmail.com",
+        "district": "Zamfara West",
+        "party": null,
+        "sources": [
+          "https://soluap.com/nigeria-senate-members-names-states-senatorial-districts/",
+          "https://currentaffairs.ng/sen/",
+          "https://nass.gov.ng/mps/single/358"
+        ]
+      }
+    ]
+  }
+]

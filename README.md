@@ -1,6 +1,6 @@
 # Nigerian Senators
 
-An app that shows the list of Nigerian Senators (2019) with contact details.
+An app that shows the list of Nigerian Senators (2019, 2023) with contact details.
 
 ## Screenshots
 <p>

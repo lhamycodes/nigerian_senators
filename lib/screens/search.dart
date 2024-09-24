@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:nigerian_senators/widgets/senator_list.dart';
+
+import '../models/state.dart';
+import '../widgets/senator_list.dart';
 
 class DataSearch extends SearchDelegate<String> {
-  final List senators;
+  final List<NigState> senators;
   final Function onTapSenator;
 
   DataSearch(this.senators, this.onTapSenator);
-  String selectedState;
+
+  String? selectedState;
 
   @override
   List<Widget> buildActions(BuildContext context) {
     return [
       IconButton(
-        icon: Icon(Icons.clear),
+        icon: const Icon(Icons.clear),
         onPressed: () => query = "",
       ),
     ];
@@ -25,19 +28,17 @@ class DataSearch extends SearchDelegate<String> {
         icon: AnimatedIcons.menu_arrow,
         progress: transitionAnimation,
       ),
-      onPressed: () => close(context, null),
+      onPressed: () => close(context, ""),
     );
   }
 
   @override
   Widget buildResults(BuildContext context) {
-    List suggestionList =
-        senators.where((sen) => sen['state'] == selectedState).toList();
+    List? suggestionList =
+        senators.where((sen) => sen.state == selectedState).toList();
 
-    if (suggestionList.isEmpty ||
-        suggestionList == null ||
-        suggestionList.length < 1)
-      return Center(
+    if (suggestionList.isEmpty) {
+      return const Center(
         child: Text(
           "No Result found",
           style: TextStyle(
@@ -47,9 +48,10 @@ class DataSearch extends SearchDelegate<String> {
           ),
         ),
       );
+    }
     return SenatorList(
       sen: suggestionList[0],
-      senatorByState: suggestionList[0]['data'],
+      senatorByState: suggestionList[0].data,
       onTap: onTapSenator,
     );
   }
@@ -60,9 +62,10 @@ class DataSearch extends SearchDelegate<String> {
         ? senators
         : senators
             .where(
-              (sen) => sen['state'].toString().toLowerCase().contains(
-                    query.toLowerCase(),
-                  ),
+              (sen) => sen.state
+                  .toString()
+                  .toLowerCase()
+                  .contains(query.toLowerCase()),
             )
             .toList();
 
@@ -70,10 +73,10 @@ class DataSearch extends SearchDelegate<String> {
       itemCount: suggestionList.length,
       itemBuilder: (ctx, i) => ListTile(
         onTap: () {
-          selectedState = suggestionList[i]['state'];
+          selectedState = suggestionList[i].state;
           showResults(context);
         },
-        title: Text(suggestionList[i]['state']),
+        title: Text(suggestionList[i].state ?? "No state"),
       ),
     );
   }
